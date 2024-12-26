@@ -1,0 +1,205 @@
+<html>
+    <head>
+        <title> font awesome</title>
+        <link rel="stylesheet" href="">
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                background-color: white;
+                
+
+            }
+            .parent{
+                height: 100vh;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 20% 10% 100% 80% 20%;
+                border: 2px solid white;
+            }
+            .header{
+                background-color: white;
+                grid-column: 1/3;
+                grid-row:1/2 ;
+                border:2px solid white;
+                display: flex;
+                justify-content: space-between;
+
+               
+            }
+            .header img{
+                max-height: 80px;
+                padding-left: 80px;
+            }
+            .header div{
+                display: flex;
+                align-items: center;
+                gap: 50px;
+            }
+            
+            .header button{
+                height: 60px;
+                width: 150px;
+                background-color: green; 
+                border: 2px solid green;
+                border-radius: 5px;
+                color: white;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .header button a{
+                color: white; 
+                text-decoration: none; 
+                font-weight: bold;
+            }
+            .navi{
+                
+                background-color: #003366;
+                grid-column: 1/3;
+                grid-row:2/3;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                gap: 30px;
+               
+                
+            }
+            .navi a{
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+               
+            }
+            .main {
+            grid-column: 1 / 3; 
+            grid-row: 3/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .main img {
+            max-width: 100%; 
+            height: 740px;
+            border: 2px solid white;
+        }
+        .left{
+            background-color: white;
+            grid-column: 1/2;
+            grid-row: 4/5;
+            margin-top: 50px;
+
+        }
+        .left img{
+            padding-left: 160px;
+            
+           
+        }
+        .right{
+            background-color: white;
+            grid-column: 2/3;
+            grid-row: 4/5;
+           height: 40px;
+           padding: 70px;
+           
+           
+        }
+        .right h1{
+            color: rgb(101, 139, 24);
+            font-size: 40px;
+        }
+        .right h2{
+            color: rgb(101, 139, 24);
+            font-size: 30px;
+        }
+        .right p{
+            color: black;
+            font-size: 18px;
+            
+        }
+    
+        .right button{
+            background-color: orangered;
+            border: 2px solid orangered;
+            border-radius: 5px;
+            color: white;
+            height: 50px;
+            width: 160px;
+            font-size: 20px;
+        }
+        .footer{
+            margin-top: 30px;
+            padding-left: 250px;
+            background-color:#FF6600;
+            border: 10px solid white;
+            grid-column: 1/3;
+            grid-row: 5/6;
+            display: flex;
+            float: left;
+            gap: 200px;
+            align-items: center;
+            text-align: center;
+        }
+        .footer p{
+            color: white;
+            font-weight: bold;
+        }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header">
+                <div>
+                <img src="file:///C:/Users/SHIVANI/Downloads/sathyalogo.png">
+                </div>
+                <div>
+                <a href="https://www.facebook.com/" >
+                    <i class="fab fa-facebook fa-2x"  style="color: #003366; "></i>
+                </a>
+                <a href="https://www.instagram.com/" >
+                        <i class="fab fa-instagram fa-2x"  style="color: #003366;"></i>
+                </a>
+                <a href="https://www.youtube.com/" >
+                    <i class="fab fa-youtube fa-2x" style="color: #003366; "></i>
+                </a>
+                <button type="submit"><a href="https://web.whatsapp.com/">Whatsapp Us</a></button>
+               </div> 
+            </div>
+            <div class="navi">
+                <a href="#"><i class="fa-solid fa-house fa-2px" style="color: white;"></i>Home</a>
+                <a href="#"><i class="fa-solid fa-book fa-2px" style="color: white;"></i>Courses</a>
+                <a href="#"><i class="fa-solid fa-clock fa-2px" style="color: white;" ></i>New Batches</a>
+                <a href="#">Internships</a>
+                <a href="#"><i class="fa-solid fa-user fa-2px" style="color: white;"></i>Trainer Registration</a>
+                <a href="#">Get in Touch</a>    
+            </div>
+            <div class="main">
+                <img src="file:///C:/Users/SHIVANI/Downloads/sathyalogo2.jpg">
+            </div>
+            <div class="left">
+                <img src="file:///C:/Users/SHIVANI/Downloads/sathyalogo3.jpg">
+            </div>
+            <div class="right">
+                <h2>Best Software Training Institute in Hyderabad
+                </h2>
+                <h1>Sathya Technologies
+                </h1>
+                <p>Experience excellence in Best Software Training Institute in Hyderabad.
+                Our institute stands out as the best software training destination, providing comprehensive courses and personalized guidance.</p><br>
+                <p>With a team of industry experts and state-of-the-art facilities, 
+                we ensure an immersive learning experience. Gain hands-on expertise in the latest software technologies and set yourself apart in the competitive job market.
+                Choose us for top-notch training, industry recognition, and a successful career.</p>
+                <button >Know More</button>
+                
+            </div>
+            <div class="footer">
+               <p>© Copyright - 2023 | Sathya Technologies | All Rights Reserved</p>
+               <p> Returns & Reschedules | Terms of Use | Privacy & Disclaimer</p>
+            </div>
+        </div>
+    </body>
+</html>
